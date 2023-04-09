@@ -1,0 +1,9 @@
+AKIA2HK2OGFEOMWSZMOK
+S9CKDdA60W//kbrddrHoZ2D+PrysJUlMJOuI7RiZ
+
+aws ec2-instance-connect send-ssh-public-key \
+--region us-east-1 \
+--availability-zone us-east-1a \
+--instance-id i-001234a4bf70dec41EXAMPLE \
+--instance-os-user ec2-user \
+--ssh-public-key file://id_rsa.pub
